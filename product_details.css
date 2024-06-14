@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes at least the full height of the viewport */
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 15px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition for a smooth color change */
+}
+
+.nav-links a:hover {
+    color: black; /* Change the color on hover */
+}
+
+
+
+
+
+.product-details-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-details {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
